@@ -9,8 +9,7 @@ public class MaxPriorityQueue<T extends Comparable<? super T>>{
     private int numberOfItems = 0;
     Student student = new Student(name, percentageScore);
     
-    public MaxPriorityQueue(double percentageScore){
-        this.percentageScore = percentageScore;
+    public MaxPriorityQueue(){
         data = new ArrayList<>();
         numberOfItems = 0;
         

@@ -3,7 +3,7 @@ package student;
 public class main {
     public static void main(String[] args) {
         
-        MaxPriorityQueue<Student> maxPriorityQueue = new MaxPriorityQueue<>(0.0);
+        MaxPriorityQueue<Student> maxPriorityQueue = new MaxPriorityQueue<>();
         maxPriorityQueue.enqueue(new Student("Arvin", 40));
         maxPriorityQueue.enqueue(new Student("Ban", 32));
         maxPriorityQueue.enqueue(new Student("Cashes", 42));
