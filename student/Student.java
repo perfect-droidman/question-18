@@ -1,7 +1,5 @@
 package student;
 
-import java.util.Random;
-
 public class Student implements Comparable<Student>{
     
     private String name;
